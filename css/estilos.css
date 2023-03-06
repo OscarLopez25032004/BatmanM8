@@ -1,0 +1,32 @@
+body {
+	font-family: 'Golos Text', sans-serif;
+	max-width: 31%;
+        margin: 0 auto;
+}
+main {
+	font-size: x-large;
+}
+a {
+  	text-decoration: none;
+}
+span {
+	color: rgb(241, 67, 67);
+}
+.header1 {
+	font-size: 40px;
+	font-weight: bold;
+}
+div {
+	font-size: 27px;
+	font-family: 'Golos Text', sans-serif;
+	text-decoration: none;
+}
+.vid {
+	width: 100%;
+	height: 400px;
+}
+.img {
+	display: block;
+	width: 550px;
+	margin: 0 auto;
+}
