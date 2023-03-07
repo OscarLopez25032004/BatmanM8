@@ -1,10 +1,6 @@
-body {
-	font-family: 'Golos Text', sans-serif;
-	max-width: 31%;
-    margin: 0 auto;
-}
 main {
 	font-size: x-large;
+	margin-bottom: 75px;
 }
 a {
   	text-decoration: none;
@@ -23,12 +19,21 @@ h1 {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: white;
-	font-size: 30px;
+	font-size: 60px;
 	width: 65%;
 	text-align: left;
 }
+.div2 {
+	font-family: 'Golos Text', sans-serif;
+	max-width: 40%;
+    margin: 0 auto;
+}
 .header1 {
-	font-size: 40px;
+	font-size: 55px;
+	font-weight: bold;
+}
+.header2 {
+	font-size: 30px;
 	font-weight: bold;
 }
 div {
@@ -38,7 +43,7 @@ div {
 }
 .title2 {
 	font-family: 'Saira Condensed', sans-serif;
-	font-size: 50px;
+	font-size: 65px;
 	text-decoration: none;
 }
 .vid {
@@ -47,6 +52,16 @@ div {
 }
 .img {
 	display: block;
-	width: 550px;
+	width: 100%;
 	margin: 0 auto;
+}
+.footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
 }
