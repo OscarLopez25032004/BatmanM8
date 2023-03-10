@@ -1,3 +1,21 @@
+/* indican las media queries */
+@media screen and (max-width: 700px) {
+    p {
+		font-size: 14px;
+	}
+	table {
+		font-size: 27px;
+	}
+	.title2 {
+		font-size: 14px;
+	}
+	table{
+		font-size: 5px;
+	}
+	.carousel {
+		font-size: 14px;
+	}
+}
 /* indica el estilo del selector de bloque que define el contenedor principal de contenido */
 main {
 	font-size: x-large;
@@ -65,17 +83,14 @@ td img {
 .header1 {
 	font-size: 55px;
 	font-weight: bold;
+	font-family: 'Saira Condensed', sans-serif;
+	text-decoration: none;
 }
 /* indica el estilo de la clase header2 */
 .header2 {
-	font-size: 30px;
-	font-weight: bold;
-}
-/* indica el estilo de la clase title2 */
-.title2 {
 	font-family: 'Saira Condensed', sans-serif;
-	font-size: 65px;
-	text-decoration: none;
+	font-size: 55px;
+	font-weight: bold;
 }
 /* indica el estilo de la clase vid */
 .vid {
